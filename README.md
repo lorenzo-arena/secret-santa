@@ -13,4 +13,10 @@ heroku local web
 
 # To edit the database after deploy
 heroku pg:psql
+
+# To create the table
+create table linkings (id integer, name text, link text, read boolean);
+
+# To add a new row
+insert into linkings values (1, 'Lorenzo', 'Teresa', false);
 ```
