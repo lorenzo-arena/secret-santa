@@ -14,6 +14,8 @@
   width: 20rem;
 }
 
-body {
-    background: #0a3a61;
+html, body {
+  margin: 0;
+  height: 100%;
+  background: #0a3a61;
 }
