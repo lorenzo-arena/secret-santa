@@ -8,15 +8,12 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "node test.js"
+    "test": "node test.js",
+    "deploy": "git push heroku master"
   },
   "dependencies": {
-    "ejs": "^2.5.6",
-    "express": "^4.15.2"
-  },
-  "devDependencies": {
-    "got": "^11.3.0",
-    "tape": "^4.7.0"
+    "express": "^4.15.2",
+    "pg": "^8.5.1"
   },
   "keywords": [
     "node",
