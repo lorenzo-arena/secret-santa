@@ -1,0 +1,19 @@
+#page-title {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 3.5rem;
+  color: rgb(194, 54, 54);
+  text-align: center;
+  margin-top: 4rem;
+}
+
+#santa-gif {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 20rem;
+}
+
+body {
+    background: #0a3a61;
+}
