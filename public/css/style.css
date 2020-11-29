@@ -23,6 +23,11 @@ html, body {
     background: #f6f1eb;
 }
 
+.modal-body {
+    background: #f6f1eb;
+    color: #6a8255;
+}
+
 ul.nav li a, ul.nav li a:visited {
     color: #6a8255 !important;
 }
@@ -38,3 +43,26 @@ ul.nav li.active a {
 a {
     color: #6a8255 !important;
 }
+
+.btn-primary, .btn-primary:active, .btn-primary:visited {
+    background-color: #6a8255 !important;
+    color: #f6f1eb !important;
+}
+
+.btn-primary:hover {
+    background-color: #92b474 !important;
+}
+
+.btn, .btn:active, .btn:visited {
+    background-color: #6a8255 !important;
+    color: #f6f1eb !important;
+}
+
+.btn:hover {
+    background-color: #92b474 !important;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+

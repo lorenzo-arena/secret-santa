@@ -23,13 +23,29 @@
             </div>
             
             <img id="santa-gif" src="assets/santa.gif" alt="Santa gif" class="rounded mx-auto d-block mt-4 img-fluid" >
+            
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content rounded-1">
+                        <div class="modal-body">
+                            <p>
+                                Scrivi il tuo nome nella casella di test e clicca su "Babbo Natale!"; verrà mostrato il nome associato a te.
+                            </p>
+                            <p>
+                                Importante: se dovessi ricevere l'errore "Nome già inserito!" dovrai contattare Lore; il nome può essere letto una solta volta e dovrà essere ripetuta la procedura.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
     <footer class="footer fixed-bottom">
         <div class="container text-center mb-4">
-            <span>
-                <a href="/help">Serve aiuto?</a>
-            </span>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                Serve aiuto?
+              </button>
         </div>
     </footer>
     
