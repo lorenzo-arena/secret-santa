@@ -28,7 +28,11 @@ html, body {
     color: #6a8255;
 }
 
-.form-control {
+.form-control, input, textarea {
+    color: #6a8255;
+}
+
+.form-control:focus, input:focus, textarea:focus {
     color: #6a8255;
 }
 

@@ -28,13 +28,13 @@
                 <div class="row">
                     <div class="col">
                         <div class="input-group mb-3 mt-3">
-                            <input type="text" class="form-control text-center" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                            <input id="santa-input" type="text" class="form-control text-center" aria-label="Default" aria-describedby="inputGroup-sizing-default">
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                        <button type="button" class="btn btn-primary" onclick="onSantaClicked()">
                             Babbo Natale!
                         </button>
                     </div>
@@ -57,9 +57,28 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="santaModal" tabindex="-1" role="dialog" aria-labelledby="santaModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content rounded-1">
+                        <div class="modal-body">
+                            <p>
+                                Sarai il Babbo Natale di..
+                            </p>
+                            <div id="santa-spinner" class="spinner-grow" role="status" style="visibility: hidden;">
+                                <span class="sr-only">Loading...</span>
+                            </div>
+                            <p class="lead">
+                                <strong id="santa-label"></strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
-    <footer class="footer fixed-bottom">
+    <footer class="footer">
         <div class="container text-center mb-4">
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#helpModal">
                 Serve aiuto?
