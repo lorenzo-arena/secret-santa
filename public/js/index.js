@@ -32,3 +32,7 @@ const onSantaClicked = async () => {
 
     document.getElementById("santa-spinner").style.visibility = "hidden";
 }
+
+const onHelpClicked = () => {
+    $('#helpModal').modal('show');
+}
