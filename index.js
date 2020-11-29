@@ -13,18 +13,6 @@ const pool = new Pool({
 
 express()
 .use(express.static(path.join(__dirname, 'public')))
-.get('/db', async (req, res) => {
-    try {
-        const client = await pool.connect();
-        const result = await client.query('SELECT * FROM linkings');
-        const results = { 'results': (result) ? result.rows : null};
-        res.send(results);
-        client.release();
-    } catch (err) {
-        console.error(err);
-        res.send("Error " + err);
-    }
-})
 .get('/link/:name', async (req, res) => {
     try {
         const client = await pool.connect();
