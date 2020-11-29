@@ -1,10 +1,40 @@
 #page-title {
-  font-family: 'Shadows Into Light', cursive;
-  color: rgb(194, 54, 54);
+    font-family: 'Shadows Into Light', cursive;
+    color: #6a8255;
+}
+
+#particles-js {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#overlay {
+    position: relative;
+    padding: 50px;
 }
 
 html, body {
-  margin: 0;
-  height: 100%;
-  background: #0a3a61;
+    margin: 0;
+    height: 100%;
+    background: #f6f1eb;
+}
+
+ul.nav li a, ul.nav li a:visited {
+    color: #6a8255 !important;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color: #6a8255 !important;
+}
+
+ul.nav li.active a {
+    color: #6a8255 !important;
+}
+
+a {
+    color: #6a8255 !important;
 }
